@@ -1,0 +1,19 @@
+{
+	"commentStamp" : "nice 7/9/2011 01:04",
+	"super" : "XTReadStream",
+	"category" : "Xtreams-Terminals",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"process",
+		"current",
+		"contentsSpecies",
+		"writing",
+		"readingSemaphore",
+		"writingSemaphore",
+		"closed"
+	],
+	"name" : "XTBlockClosureGenerateStream",
+	"type" : "normal"
+}

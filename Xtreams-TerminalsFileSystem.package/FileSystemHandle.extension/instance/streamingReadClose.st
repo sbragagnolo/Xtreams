@@ -1,0 +1,3 @@
+*Xtreams-TerminalsFileSystem-primitives
+streamingReadClose
+	self close

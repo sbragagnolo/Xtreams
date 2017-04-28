@@ -1,0 +1,12 @@
+{
+	"instance" : {
+		"hasFixedWriteSpace" : "nice 10/9/2010 18:56",
+		"streamingWrite:from:" : "nice 4/6/2013 23:45",
+		"write:from:at:" : "MartinKobetic 12/22/2010 16:41",
+		"clearCache" : "nice 10/9/2010 18:51",
+		"put:" : "nice 10/9/2010 18:47",
+		"hasSpaceToWrite" : "nice 10/9/2010 18:57",
+		"growBy:" : "nice 10/9/2010 18:56"
+	},
+	"class" : { }
+}

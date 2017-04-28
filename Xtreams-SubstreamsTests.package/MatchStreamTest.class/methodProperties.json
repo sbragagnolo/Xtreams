@@ -1,0 +1,9 @@
+{
+	"instance" : {
+		"testRepeatingPattern" : "nice 4/6/2013 23:08",
+		"testSimplePattern" : "nice 4/6/2013 23:31",
+		"testWriteRepeatingPattern" : "nice 4/6/2013 23:31",
+		"testWorstCase" : "nice 4/6/2013 23:31"
+	},
+	"class" : { }
+}

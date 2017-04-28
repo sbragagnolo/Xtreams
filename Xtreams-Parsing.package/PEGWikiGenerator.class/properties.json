@@ -1,0 +1,33 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "PEGActor",
+	"category" : "Xtreams-Parsing",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"Anchor",
+		"Break",
+		"Division",
+		"Heading1",
+		"Heading2",
+		"Heading3",
+		"Heading4",
+		"Href",
+		"ListItem",
+		"OrderedList",
+		"Paragraph",
+		"Preformatted",
+		"Span",
+		"Style",
+		"Table",
+		"TableBody",
+		"TableData",
+		"TableHead",
+		"TableHeading",
+		"TableRow",
+		"UnorderedList"
+	],
+	"instvars" : [ ],
+	"name" : "PEGWikiGenerator",
+	"type" : "normal"
+}

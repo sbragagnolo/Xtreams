@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "nice 3/3/2012 21:51",
+	"super" : "XTWriteStream",
+	"category" : "Xtreams-Terminals",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"position",
+		"length"
+	],
+	"name" : "XTSequenceableCollectionWriteStream",
+	"type" : "normal"
+}

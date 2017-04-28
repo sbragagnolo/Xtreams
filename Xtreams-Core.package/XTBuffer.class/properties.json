@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "Object",
+	"category" : "Xtreams-Core",
+	"classinstvars" : [ ],
+	"pools" : [
+		"XTPools"
+	],
+	"classvars" : [ ],
+	"instvars" : [
+		"cache",
+		"readPosition",
+		"writePosition",
+		"dataLength"
+	],
+	"name" : "XTBuffer",
+	"type" : "normal"
+}

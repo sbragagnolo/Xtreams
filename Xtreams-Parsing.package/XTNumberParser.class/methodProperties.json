@@ -1,0 +1,26 @@
+{
+	"instance" : {
+		"parse:ifFail:" : "cwp 9/14/2011 16:43",
+		"parseDigits:" : "cwp 9/14/2011 17:06",
+		"parseDigits" : "cwp 9/14/2011 16:49",
+		"digitValue" : "cwp 9/14/2011 16:39",
+		"handleParseError:" : "cwp 9/14/2011 16:26",
+		"initializeWithStream:" : "cwp 9/13/2011 23:41",
+		"initialize" : "cwp 9/14/2011 16:33",
+		"parse:base:ifFail:" : "cwp 9/14/2011 16:30",
+		"isDigit:" : "cwp 9/14/2011 16:42",
+		"parseFraction" : "cwp 9/14/2011 17:10",
+		"parse" : "cwp 9/14/2011 16:45",
+		"parse:" : "cwp 9/14/2011 16:32",
+		"fail" : "cwp 9/14/2011 16:35",
+		"handleIncomplete:" : "cwp 9/14/2011 16:27",
+		"parseSign" : "cwp 9/14/2011 00:12",
+		"parse:base:" : "cwp 9/14/2011 16:32"
+	},
+	"class" : {
+		"parse:" : "cwp 9/14/2011 15:48",
+		"parse:base:" : "cwp 9/14/2011 15:48",
+		"parse:base:ifFail:" : "cwp 9/14/2011 15:49",
+		"on:" : "cwp 9/13/2011 22:48"
+	}
+}

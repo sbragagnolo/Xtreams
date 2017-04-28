@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "nice 10/10/2010 20:33",
+	"super" : "XTPositionWriteSubstream",
+	"category" : "Xtreams-Substreams",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"limit"
+	],
+	"name" : "XTLimitWriteSubstream",
+	"type" : "normal"
+}

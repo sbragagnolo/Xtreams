@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "XTWriteStream",
+	"category" : "Xtreams-LegacyStreamAPI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "XTLegacyWriteStream",
+	"type" : "normal"
+}

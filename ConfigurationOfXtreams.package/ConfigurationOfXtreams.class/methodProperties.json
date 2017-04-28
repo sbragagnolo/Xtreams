@@ -1,0 +1,35 @@
+{
+	"instance" : {
+		"stable:" : "DamienCassou 6/12/2015 14:33",
+		"version12dev:" : "nice 3/4/2012 17:32",
+		"development:" : "SeanDeNigris 4/8/2015 12:47",
+		"version13:" : "nice 11/15/2013 23:20",
+		"customProjectAttributes" : "SeanDeNigris 4/5/2015 10:09",
+		"version11:" : "nice 3/4/2012 17:30",
+		"version132:" : "SeanDeNigris 4/8/2015 12:46",
+		"baseline101:" : "nice 11/15/2013 23:23",
+		"preLoadSqueakEnsureGlobalUnderscoreSelectors" : "ul 2/21/2011 05:08",
+		"baseline103:" : "nice 11/15/2013 23:23",
+		"baseline132:" : "DamienCassou 6/12/2015 14:39",
+		"version10:" : "ul 2/22/2011 08:11",
+		"postLoadSqueakRestoreGlobalUnderscoreSelectors" : "ul 2/21/2011 04:59",
+		"version12:" : "nice 11/13/2013 01:29",
+		"version131:" : "SeanDeNigris 4/5/2015 10:04",
+		"baseline131:" : "SeanDeNigris 4/5/2015 09:58",
+		"baseline100:" : "nice 11/15/2013 23:24",
+		"project" : "nice 11/17/2013 14:50"
+	},
+	"class" : {
+		"load" : "ul 2/21/2011 04:29",
+		"baseConfigurationClassIfAbsent:" : "ul 2/21/2011 04:29",
+		"DevelopmentSupport" : "ul 2/21/2011 04:29",
+		"ensureMetacello" : "fbs 4/14/2012 18:40",
+		"loadDevelopment" : "ul 2/21/2011 04:29",
+		"bootstrapPackage:from:" : "fbs 4/14/2012 18:40",
+		"isMetacelloConfig" : "ul 2/21/2011 04:29",
+		"ensureMetacelloBaseConfiguration" : "fbs 4/14/2012 18:40",
+		"loadBleedingEdge" : "ul 2/21/2011 04:29",
+		"validate" : "ul 2/21/2011 04:29",
+		"project" : "ul 2/21/2011 04:29"
+	}
+}

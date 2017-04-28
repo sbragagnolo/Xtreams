@@ -1,0 +1,3 @@
+seeking
+atEnd
+	^source atEnd

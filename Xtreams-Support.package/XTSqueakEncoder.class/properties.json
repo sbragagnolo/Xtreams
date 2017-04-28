@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "XTEncoder",
+	"category" : "Xtreams-Support",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"TextConverterMap"
+	],
+	"instvars" : [
+		"encoder",
+		"skipRecord",
+		"backupRecord"
+	],
+	"name" : "XTSqueakEncoder",
+	"type" : "normal"
+}

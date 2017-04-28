@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "fbs 11/19/2013 08:41",
+	"super" : "XTReadStream",
+	"category" : "Xtreams-Transforms",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"streams",
+		"streamIndex",
+		"workingSet"
+	],
+	"name" : "XTInterleavedReadStream",
+	"type" : "normal"
+}

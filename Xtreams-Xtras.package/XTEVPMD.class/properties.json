@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "ExternalStructure",
+	"category" : "Xtreams-Xtras",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "XTEVPMD",
+	"type" : "normal"
+}

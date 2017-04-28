@@ -1,0 +1,1 @@
+(name 'Xtreams-TerminalsFileDirectoryTests-nice.1' message 'Create separate tests for FileDirectory because it is not compatible with Pharo3.x' id '8dcebf16-4e8b-4fa3-a58b-ff17f666d16b' date '14 November 2013' time '10:41:53.113 pm' author 'nice' ancestors () stepChildren ())

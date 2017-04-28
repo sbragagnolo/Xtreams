@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "nice 3/3/2012 21:30",
+	"super" : "XTWriteStream",
+	"category" : "Xtreams-Terminals",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "XTCollectionWriteStream",
+	"type" : "normal"
+}

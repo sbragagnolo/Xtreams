@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "XTFiniteReadingWritingTests",
+	"category" : "Xtreams-TerminalsTests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"buffer"
+	],
+	"name" : "XTRingBufferReadingWritingTest",
+	"type" : "normal"
+}

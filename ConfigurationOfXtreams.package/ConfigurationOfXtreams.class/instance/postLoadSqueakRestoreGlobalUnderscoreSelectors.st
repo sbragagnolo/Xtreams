@@ -1,0 +1,4 @@
+doits
+postLoadSqueakRestoreGlobalUnderscoreSelectors 
+
+	Scanner prefAllowUnderscoreSelectors: originalUnderscoreSelectorsPreferenceValue

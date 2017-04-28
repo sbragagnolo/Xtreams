@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "XTReadStream",
+	"category" : "Xtreams-Xtras",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"input",
+		"digest",
+		"hash"
+	],
+	"name" : "XTDigestReadStream",
+	"type" : "normal"
+}

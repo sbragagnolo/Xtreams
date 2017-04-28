@@ -1,0 +1,16 @@
+{
+	"instance" : {
+		"--" : "nice 4/6/2013 22:35",
+		"length" : "nice 4/6/2013 22:36",
+		"contentsSpecies" : "nice 7/8/2011 23:42",
+		"isPositionable" : "nice 4/6/2013 22:35",
+		"on:duplicate:" : "nice 7/9/2011 10:53",
+		"++" : "nice 4/6/2013 22:36",
+		"position" : "nice 4/6/2013 22:36",
+		"position:" : "nice 4/6/2013 22:36",
+		"write:from:at:" : "nice 7/9/2011 10:53"
+	},
+	"class" : {
+		"on:duplicate:" : "nice 7/9/2011 10:53"
+	}
+}

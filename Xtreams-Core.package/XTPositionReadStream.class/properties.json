@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "nice 10/9/2010 21:44",
+	"super" : "XTReadStream",
+	"category" : "Xtreams-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"buffer"
+	],
+	"name" : "XTPositionReadStream",
+	"type" : "normal"
+}

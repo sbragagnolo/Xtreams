@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "dtl 11/28/2002 23:01",
+	"super" : "XTExternalResourceHandle",
+	"category" : "Xtreams-Support",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"ConcreteFileClass",
+		"ConcreteSocketClass",
+		"RegistryThreshold"
+	],
+	"instvars" : [
+		"semaphore"
+	],
+	"name" : "XTIOHandle",
+	"type" : "normal"
+}

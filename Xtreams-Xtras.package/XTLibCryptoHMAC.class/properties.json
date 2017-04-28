@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "XTHMAC",
+	"category" : "Xtreams-Xtras",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"library",
+		"context",
+		"algorithm"
+	],
+	"name" : "XTLibCryptoHMAC",
+	"type" : "normal"
+}

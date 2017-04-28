@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "nice 3/3/2012 22:06",
+	"super" : "XTExternalWriteStream",
+	"category" : "Xtreams-Terminals",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"position",
+		"isPositionable"
+	],
+	"name" : "XTFileWriteStream",
+	"type" : "normal"
+}

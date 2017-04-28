@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "XTFileReadStream",
+	"category" : "Xtreams-TerminalsFileSystem",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "XTMemoryFileReadStream",
+	"type" : "normal"
+}

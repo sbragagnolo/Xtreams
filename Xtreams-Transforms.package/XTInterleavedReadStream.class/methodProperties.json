@@ -1,0 +1,12 @@
+{
+	"instance" : {
+		"initialize" : "fbs 11/20/2013 09:07",
+		"read:into:at:" : "fbs 11/20/2013 17:09",
+		"contentsSpecies" : "fbs 11/15/2013 19:04",
+		"initializeWithStreams:" : "fbs 11/20/2013 09:08"
+	},
+	"class" : {
+		"across:" : "fbs 11/15/2013 19:03",
+		"left:right:" : "fbs 11/15/2013 19:07"
+	}
+}

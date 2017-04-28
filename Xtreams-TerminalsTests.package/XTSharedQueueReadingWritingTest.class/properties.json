@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "XTInfiniteReadingWritingTests",
+	"category" : "Xtreams-TerminalsTests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"queue"
+	],
+	"name" : "XTSharedQueueReadingWritingTest",
+	"type" : "normal"
+}

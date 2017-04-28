@@ -1,0 +1,9 @@
+{
+	"instance" : {
+		"testParsePEGwithPEG" : "nice 1/14/2011 23:21",
+		"testValidatePEG" : "nice 1/14/2011 23:21",
+		"setUp" : "nice 1/14/2011 23:20",
+		"testParsePEG" : "nice 1/14/2011 23:21"
+	},
+	"class" : { }
+}

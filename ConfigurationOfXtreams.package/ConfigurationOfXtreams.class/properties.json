@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "ul 2/23/2011 06:41",
+	"super" : "Object",
+	"category" : "ConfigurationOfXtreams",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"LastVersionLoad"
+	],
+	"instvars" : [
+		"project",
+		"originalUnderscoreSelectorsPreferenceValue"
+	],
+	"name" : "ConfigurationOfXtreams",
+	"type" : "normal"
+}

@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "XTReadStream",
+	"category" : "Xtreams-Terminals",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"contentsSpecies",
+		"closeBlock"
+	],
+	"name" : "XTBlockClosureReadStream",
+	"type" : "normal"
+}

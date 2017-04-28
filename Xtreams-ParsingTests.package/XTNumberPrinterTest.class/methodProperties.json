@@ -1,0 +1,25 @@
+{
+	"instance" : {
+		"testOctal" : "cwp 9/14/2011 22:16",
+		"testSevenPaddedWithZero" : "cwp 9/15/2011 15:06",
+		"testMinusOne" : "cwp 9/14/2011 22:12",
+		"testTooWide" : "cwp 9/15/2011 15:05",
+		"testOne" : "cwp 9/14/2011 21:40",
+		"testOneTwentyThree" : "cwp 9/14/2011 22:00",
+		"printWith:" : "cwp 9/14/2011 21:41",
+		"testZero" : "cwp 9/15/2011 15:08",
+		"testTwelve" : "cwp 9/14/2011 21:46",
+		"testTwo" : "cwp 9/14/2011 21:40",
+		"testOnePaddedWithSpace" : "cwp 9/15/2011 15:06",
+		"testOnePointTwoThree" : "cwp 9/15/2011 13:50",
+		"testFraction" : "cwp 9/15/2011 15:10",
+		"testAA" : "cwp 9/14/2011 22:19",
+		"testFloat" : "cwp 9/15/2011 15:14",
+		"testFortyFivePointSix" : "cwp 9/15/2011 13:49",
+		"testInfiniteFraction" : "cwp 9/15/2011 14:32",
+		"testOnePointTwo" : "cwp 9/14/2011 22:45",
+		"testExtraZeros" : "cwp 9/15/2011 14:15",
+		"testDecimalPlaces" : "cwp 9/15/2011 15:13"
+	},
+	"class" : { }
+}

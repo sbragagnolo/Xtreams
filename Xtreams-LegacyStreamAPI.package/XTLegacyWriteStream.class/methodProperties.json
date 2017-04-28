@@ -1,0 +1,27 @@
+{
+	"instance" : {
+		"write:from:at:" : "nice 11/16/2013 01:43",
+		"print:" : "nice 11/18/2013 21:46",
+		"store:" : "nice 11/18/2013 21:46",
+		"contentsSpecies" : "nice 11/16/2013 01:44",
+		"nextPutAll:" : "nice 11/16/2013 00:01",
+		"isPositionable" : "nice 11/16/2013 01:44",
+		"next:putAll:startingAt:" : "nice 11/16/2013 01:52",
+		"contents" : "nice 11/16/2013 01:53",
+		"setToEnd" : "nice 11/16/2013 02:15",
+		"next:put:" : "nice 11/18/2013 21:16",
+		"reset" : "nice 11/16/2013 01:49",
+		"position" : "nice 11/16/2013 01:46",
+		"put:" : "nice 11/16/2013 01:42",
+		"isStream" : "nice 11/16/2013 03:01",
+		"length" : "nice 11/16/2013 01:45",
+		"size" : "nice 11/16/2013 01:47",
+		"isBinary" : "nice 11/16/2013 03:01",
+		"position:" : "nice 11/16/2013 01:46",
+		"++" : "nice 11/16/2013 01:45",
+		"--" : "nice 11/16/2013 01:45",
+		"collectionSpecies" : "nice 11/16/2013 03:03",
+		"nextPut:" : "nice 11/16/2013 00:00"
+	},
+	"class" : { }
+}

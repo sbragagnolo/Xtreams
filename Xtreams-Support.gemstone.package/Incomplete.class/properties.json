@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "nice 10/9/2010 21:44",
+	"super" : "Error",
+	"category" : "Xtreams-Support",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"collection",
+		"count",
+		"start"
+	],
+	"name" : "Incomplete",
+	"type" : "normal"
+}

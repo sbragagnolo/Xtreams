@@ -1,0 +1,1 @@
+A XTMemoryFileWriteStream is specialized for reading FileSystem memory.

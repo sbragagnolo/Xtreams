@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "Xtreams-CoreTests",
+	"classinstvars" : [ ],
+	"pools" : [
+		"XTPools"
+	],
+	"classvars" : [ ],
+	"instvars" : [
+		"output",
+		"input"
+	],
+	"name" : "XTReadingWritingTest",
+	"type" : "normal"
+}

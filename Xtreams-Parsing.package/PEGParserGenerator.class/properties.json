@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "PEGActor",
+	"category" : "Xtreams-Parsing",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "PEGParserGenerator",
+	"type" : "normal"
+}

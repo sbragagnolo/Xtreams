@@ -1,0 +1,25 @@
+{
+	"commentStamp" : "dtl 11/28/2002 22:55",
+	"super" : "XTIOHandle",
+	"category" : "Xtreams-Support",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"Connected",
+		"InvalidSocket",
+		"OtherEndClosed",
+		"TCPSocketType",
+		"ThisEndClosed",
+		"UDPSocketType",
+		"Unconnected",
+		"WaitingForConnection"
+	],
+	"instvars" : [
+		"socketType",
+		"writeSemaphore",
+		"readSemaphore",
+		"primitiveOnlySupportsOneSemaphore"
+	],
+	"name" : "XTIOSocketHandle",
+	"type" : "normal"
+}

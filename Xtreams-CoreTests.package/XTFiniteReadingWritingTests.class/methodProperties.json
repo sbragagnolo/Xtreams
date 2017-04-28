@@ -1,0 +1,35 @@
+{
+	"instance" : {
+		"testGet" : "MartinKobetic 1/11/2011 17:53",
+		"testSeekBackwardPastBeginning" : "MartinKobetic 1/11/2011 17:53",
+		"testCollect" : "nice 10/15/2010 11:53",
+		"testWritePositioningSeek" : "MartinKobetic 1/11/2011 17:53",
+		"testDetect" : "nice 10/15/2010 11:51",
+		"testSeekBackward" : "nice 10/15/2010 11:53",
+		"testWriteTruncating" : "nice 10/20/2010 22:35",
+		"testRead" : "MartinKobetic 1/11/2011 17:53",
+		"testExploreSeekBackward" : "MartinKobetic 1/11/2011 17:53",
+		"testDo" : "nice 10/15/2010 11:46",
+		"testReadPositioningSeek" : "MartinKobetic 1/11/2011 17:53",
+		"testExploreSeekBackwardPastBeginning" : "MartinKobetic 1/11/2011 17:53",
+		"testSelect" : "nice 10/15/2010 11:54",
+		"testReadIntoAt" : "MartinKobetic 1/11/2011 17:53",
+		"testExploreRead" : "MartinKobetic 1/11/2011 17:53",
+		"testGetPastEnd" : "MartinKobetic 1/11/2011 17:53",
+		"testExploreInsideExplore" : "MartinKobetic 1/11/2011 17:53",
+		"testWritePositioningWithRingBuffer" : "MartinKobetic 1/11/2011 18:06",
+		"testSeekForwardPastEnd" : "MartinKobetic 1/11/2011 17:53",
+		"testWritePositioningSeekFrom" : "MartinKobetic 1/11/2011 17:53",
+		"testRest" : "nice 10/15/2010 11:40",
+		"testWriteStream" : "MartinKobetic 1/11/2011 17:53",
+		"testSeekForward" : "MartinKobetic 12/30/2010 23:04",
+		"testExploreSeekForwardPastEnd" : "MartinKobetic 1/11/2011 17:53",
+		"testReadPositioningSeekFrom" : "MartinKobetic 1/11/2011 17:53",
+		"testExploreSeekForward" : "MartinKobetic 1/11/2011 17:53",
+		"testReadIntoAtPastEnd" : "MartinKobetic 1/11/2011 17:53",
+		"testWritePositioningInsert" : "nice 3/3/2012 23:21"
+	},
+	"class" : {
+		"isAbstract" : "nice 4/7/2013 00:01"
+	}
+}

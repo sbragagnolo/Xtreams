@@ -1,0 +1,14 @@
+{
+	"instance" : {
+		"writing" : "nice 10/14/2010 22:01",
+		"streamingWriteClose" : "nice 4/7/2013 17:01",
+		"reading" : "nice 10/14/2010 22:01",
+		"streamingReadClose" : "nice 4/7/2013 17:01",
+		"accepting" : "nice 4/7/2013 17:03",
+		"closed" : "nice 10/14/2010 22:25",
+		"readInto:" : "MartinKobetic 1/13/2011 17:43",
+		"commit" : "nice 10/14/2010 22:36",
+		"next:putAll:startingAt:" : "MartinKobetic 1/14/2011 00:54"
+	},
+	"class" : { }
+}

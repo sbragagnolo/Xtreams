@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "nice 10/9/2010 21:45",
+	"super" : "XTBuffer",
+	"category" : "Xtreams-Core",
+	"classinstvars" : [ ],
+	"pools" : [
+		"XTPools"
+	],
+	"classvars" : [ ],
+	"instvars" : [
+		"dataPosition"
+	],
+	"name" : "XTRingBuffer",
+	"type" : "normal"
+}

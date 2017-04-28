@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "XTEncoder",
+	"category" : "Xtreams-Transforms",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "XTISO8859L1Encoder",
+	"type" : "normal"
+}

@@ -1,0 +1,13 @@
+{
+	"instance" : {
+		"decodeFrom:" : "DaleHenrichs 03/11/2011 20:15",
+		"nextByteFrom:" : "DaleHenrichs 03/11/2011 20:14",
+		"nextBytesFrom:do:" : "DaleHenrichs 03/11/2011 20:12",
+		"badlyFormedUTF8Stream" : "DaleHenrichs 03/11/2011 20:16",
+		"encode:on:" : "DaleHenrichs 03/11/2011 20:20"
+	},
+	"class" : {
+		"for:" : "DaleHenrichs 03/11/2011 20:06",
+		"initialize" : "DaleHenrichs 03/11/2011 20:18"
+	}
+}

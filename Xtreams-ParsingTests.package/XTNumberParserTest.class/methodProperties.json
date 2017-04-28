@@ -1,0 +1,25 @@
+{
+	"instance" : {
+		"testOctal" : "cwp 9/14/2011 15:45",
+		"testClassParse" : "cwp 9/14/2011 17:12",
+		"testFailBlock" : "cwp 9/14/2011 15:51",
+		"testMinusOne" : "cwp 9/14/2011 15:44",
+		"testOne" : "cwp 9/14/2011 15:46",
+		"testOneTwentyThree" : "cwp 9/14/2011 15:46",
+		"testTwelveSpace" : "cwp 9/14/2011 15:46",
+		"testParseBaseIfFail" : "cwp 9/14/2011 15:52",
+		"testParseBaseFail" : "cwp 9/14/2011 15:55",
+		"testNilIfFailBase8" : "cwp 9/14/2011 17:11",
+		"testTwelve" : "cwp 9/14/2011 15:46",
+		"testTwo" : "cwp 9/14/2011 15:47",
+		"testDecimalFail" : "cwp 9/14/2011 17:11",
+		"testClassParseBase" : "cwp 9/14/2011 17:12",
+		"testOnePointTwoThree" : "cwp 9/14/2011 17:00",
+		"testAA" : "cwp 9/14/2011 15:43",
+		"testNilIfFail" : "cwp 9/14/2011 17:11",
+		"testClassParseBaseIfFail" : "cwp 9/14/2011 17:14",
+		"testOnePointTwo" : "cwp 9/14/2011 16:44",
+		"testClassParseBaseFail" : "cwp 9/14/2011 17:13"
+	},
+	"class" : { }
+}

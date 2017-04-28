@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "XTReadStream",
+	"category" : "Xtreams-Substreams",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"active",
+		"contentsSpecies"
+	],
+	"name" : "XTStitchReadStream",
+	"type" : "normal"
+}

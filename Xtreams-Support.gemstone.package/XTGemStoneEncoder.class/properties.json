@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "XTEncoder",
+	"category" : "Xtreams-Support",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "XTGemStoneEncoder",
+	"type" : "normal"
+}

@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "MartinKobetic 2/13/2011 23:20",
+	"super" : "ExternalLibrary",
+	"category" : "Xtreams-Xtras",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"outputLength"
+	],
+	"name" : "XTBCrypt",
+	"type" : "normal"
+}

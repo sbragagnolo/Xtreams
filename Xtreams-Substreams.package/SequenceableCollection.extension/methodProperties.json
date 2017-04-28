@@ -1,0 +1,8 @@
+{
+	"instance" : {
+		"streamingWriteMatching:inclusive:" : "nice 4/6/2013 23:20",
+		"streamingMatchFailureFunction" : "nice 4/6/2013 23:19",
+		"streamingReadMatching:inclusive:" : "nice 4/6/2013 23:20"
+	},
+	"class" : { }
+}

@@ -1,0 +1,31 @@
+{
+	"instance" : {
+		"testWriteStitchLimiting" : "MartinKobetic 1/11/2011 17:47",
+		"testReadEndingObjectTail" : "MartinKobetic 1/11/2011 17:53",
+		"testReadEndingBlockTail" : "MartinKobetic 1/11/2011 17:53",
+		"testReadEndingCollectionTail" : "MartinKobetic 1/11/2011 17:53",
+		"testWriteEndingCollectionTail" : "MartinKobetic 1/11/2011 17:53",
+		"testWriteEndingObject" : "MartinKobetic 1/11/2011 17:53",
+		"testWriteStitchingChunks" : "MartinKobetic 1/11/2011 17:47",
+		"testWriteLimitingPositioning" : "MartinKobetic 1/11/2011 17:53",
+		"testReadLimiting" : "MartinKobetic 1/11/2011 17:53",
+		"testReadStitchLimiting" : "MartinKobetic 1/11/2011 17:53",
+		"testWriteClosingPositioning" : "nice 3/4/2012 01:05",
+		"testReadEndingObject" : "MartinKobetic 1/11/2011 17:53",
+		"testWriteEndingBlock" : "MartinKobetic 1/11/2011 17:53",
+		"testReadLimitingPositioning" : "MartinKobetic 1/11/2011 17:53",
+		"testReadEndingBlockPositioning" : "MartinKobetic 1/11/2011 17:53",
+		"testReadEndingBlock" : "MartinKobetic 1/11/2011 17:53",
+		"testWriteEndingCollection" : "MartinKobetic 1/11/2011 17:53",
+		"testReadStitchingChunks" : "MartinKobetic 1/11/2011 17:46",
+		"testReadEndingObjectPositioning" : "MartinKobetic 1/11/2011 17:53",
+		"testWriteLimiting" : "MartinKobetic 1/11/2011 17:53",
+		"testWriteEndingBlockTail" : "MartinKobetic 1/11/2011 17:53",
+		"testReadClosing" : "nice 3/4/2012 01:03",
+		"testWriteClosing" : "nice 3/4/2012 01:01",
+		"testWriteEndingObjectTail" : "MartinKobetic 1/11/2011 17:53",
+		"testReadEndingCollectionPositioning" : "MartinKobetic 1/11/2011 17:53",
+		"testReadEndingCollection" : "MartinKobetic 1/11/2011 17:53"
+	},
+	"class" : { }
+}

@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "XTWriteSubstream",
+	"category" : "Xtreams-Substreams",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"substreamAtEnd",
+		"pattern",
+		"candidate",
+		"inclusive",
+		"backtrack"
+	],
+	"name" : "XTMatchWriteSubstream",
+	"type" : "normal"
+}

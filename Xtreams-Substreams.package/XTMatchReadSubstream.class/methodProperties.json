@@ -1,0 +1,19 @@
+{
+	"instance" : {
+		"streamingWriteInto:" : "nice 4/6/2013 23:15",
+		"close" : "nice 4/6/2013 23:13",
+		"-=" : "nice 4/6/2013 23:13",
+		"streamingInsertInto:" : "nice 4/6/2013 23:15",
+		"isPositionable" : "nice 10/10/2010 18:21",
+		"postCopy" : "nice 4/6/2013 23:14",
+		"read:into:at:" : "nice 4/6/2013 23:14",
+		"gobble" : "nice 4/6/2013 23:13",
+		"get" : "nice 4/6/2013 23:13",
+		"on:pattern:backtrack:inclusive:" : "nice 4/6/2013 23:14",
+		"streamingInsert:into:" : "nice 4/6/2013 23:14",
+		"streamingWrite:into:" : "nice 4/6/2013 23:15"
+	},
+	"class" : {
+		"on:pattern:backtrack:inclusive:" : "nice 10/10/2010 18:02"
+	}
+}

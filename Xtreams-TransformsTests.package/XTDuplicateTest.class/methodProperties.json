@@ -1,0 +1,12 @@
+{
+	"instance" : {
+		"testDuplicateReadingPositionable" : "nice 4/6/2013 22:42",
+		"testDuplicateReadingIncomplete" : "nice 7/9/2011 11:52",
+		"testDuplicateWriting" : "nice 7/9/2011 11:52",
+		"testDuplicateWritingIncomplete" : "nice 7/9/2011 11:52",
+		"testDuplicateReading" : "nice 7/9/2011 11:51",
+		"testDuplicateWritingPositionable" : "nice 4/6/2013 22:42",
+		"with:merge:sort:" : "nice 4/6/2013 22:42"
+	},
+	"class" : { }
+}

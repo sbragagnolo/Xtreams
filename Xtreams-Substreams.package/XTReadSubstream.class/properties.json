@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "nice 3/3/2012 21:42",
+	"super" : "XTReadStream",
+	"category" : "Xtreams-Substreams",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"sourceAtEnd",
+		"closeBlock"
+	],
+	"name" : "XTReadSubstream",
+	"type" : "normal"
+}

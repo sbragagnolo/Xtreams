@@ -1,0 +1,19 @@
+{
+	"instance" : {
+		"base" : "cwp 9/15/2011 14:54",
+		"padTo:with:" : "cwp 9/15/2011 15:05",
+		"calcFractionPart" : "cwp 9/15/2011 15:04",
+		"calcSign" : "cwp 9/15/2011 13:59",
+		"flush:" : "cwp 9/15/2011 15:08",
+		"calcWholePart" : "cwp 9/15/2011 15:10",
+		"base:" : "cwp 9/15/2011 14:54",
+		"decimalPlaces:" : "cwp 9/15/2011 15:04",
+		"print:on:base:" : "cwp 9/15/2011 14:54",
+		"put:on:" : "cwp 9/15/2011 14:58",
+		"initialize" : "cwp 9/15/2011 15:04",
+		"print:on:" : "cwp 9/15/2011 14:58",
+		"actualWidth" : "cwp 9/15/2011 14:56",
+		"decimalPlaces" : "cwp 9/15/2011 15:04"
+	},
+	"class" : { }
+}

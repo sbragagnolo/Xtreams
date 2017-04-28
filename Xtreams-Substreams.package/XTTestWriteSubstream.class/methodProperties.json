@@ -1,0 +1,16 @@
+{
+	"instance" : {
+		"on:test:inclusive:" : "nice 10/10/2010 18:31",
+		"insert:from:at:" : "nice 7/8/2011 23:19",
+		"streamingInsertFrom:" : "nice 10/10/2010 18:31",
+		"isPositionable" : "nice 10/10/2010 18:30",
+		"streamingWrite:from:" : "MartinKobetic 1/11/2011 17:53",
+		"streamingInsert:from:" : "nice 10/10/2010 18:31",
+		"streamingWriteFrom:" : "MartinKobetic 1/11/2011 17:53",
+		"put:" : "MartinKobetic 1/11/2011 17:53",
+		"write:from:at:" : "MartinKobetic 1/11/2011 17:53"
+	},
+	"class" : {
+		"on:test:inclusive:" : "nice 10/10/2010 18:04"
+	}
+}

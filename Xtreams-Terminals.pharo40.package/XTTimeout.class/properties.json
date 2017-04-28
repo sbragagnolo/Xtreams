@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "nice 4/7/2013 17:05",
+	"super" : "Error",
+	"category" : "Xtreams-Terminals",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "XTTimeout",
+	"type" : "normal"
+}

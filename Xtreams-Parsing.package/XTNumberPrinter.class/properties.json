@@ -1,0 +1,20 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Xtreams-Parsing",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"base",
+		"width",
+		"padding",
+		"sign",
+		"whole",
+		"fraction",
+		"number",
+		"decimalPlaces"
+	],
+	"name" : "XTNumberPrinter",
+	"type" : "normal"
+}

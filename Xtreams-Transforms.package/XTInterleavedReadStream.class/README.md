@@ -1,0 +1,3 @@
+An XTInterleavedReadStream reads in a fair manner from two or more streams. "Fair" means that, given enough items a1, a2, ... b1, b2, ..., c1, c2, ... and so on in the streams , the resulting stream will consist of elements a1, b1, c1, ..., a2, b2, c2, ....
+
+If any stream becomes empty, items come solely from the other non-empty streams. If all streams have become empty, an XTnterleavedReadStream throws an Incomplete.

@@ -1,0 +1,16 @@
+{
+	"instance" : {
+		"close" : "nice 10/13/2010 20:04",
+		"write:from:at:" : "MartinKobetic 1/11/2011 17:53",
+		"contentsSpecies" : "nice 10/10/2010 18:27",
+		"on:" : "nice 10/10/2010 18:27",
+		"subseekend" : "nice 10/10/2010 18:27",
+		"destinationAtEnd" : "nice 10/10/2010 18:28",
+		"closeBlock:" : "nice 10/10/2010 18:27",
+		"closeBlock" : "nice 10/10/2010 18:26",
+		"put:" : "MartinKobetic 1/11/2011 17:53",
+		"insert:from:at:" : "nice 7/8/2011 23:19",
+		"substreamClosed" : "nice 10/10/2010 18:28"
+	},
+	"class" : { }
+}

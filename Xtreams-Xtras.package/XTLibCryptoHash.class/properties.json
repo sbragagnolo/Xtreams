@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "XTHash",
+	"category" : "Xtreams-Xtras",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"library",
+		"context",
+		"algorithm"
+	],
+	"name" : "XTLibCryptoHash",
+	"type" : "normal"
+}
