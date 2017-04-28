@@ -1,4 +1,4 @@
 initialize-release
 initialize
 	self makeNonviewableInstances.
-	Smalltalk addToShutDownList: self after: DisplayScreen
+	SessionManager default registerToolClassNamed: self name
