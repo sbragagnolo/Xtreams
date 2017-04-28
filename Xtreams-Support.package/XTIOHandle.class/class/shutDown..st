@@ -5,8 +5,9 @@ shutDown: quitting
 
 	quitting
 		ifTrue: [ | changesFile |
-				changesFile := SourceFiles at: 2.
+				changesFile := FileLocator changes resolve.
 				self registry asArray do: [:e |
+					self error: 'Ensure that this makes sense please!'.
 					changesFile isNil
 						ifTrue: [e finalize; unregister]
 						ifFalse: [(changesFile ioHandle ~= e) ifTrue: [e finalize; unregister]]]]
