@@ -144,12 +144,15 @@ Buffering requires memory and different algorithms may require different bufferi
 
 Any positionable stream can be explored. The #explore: method is an enhancement of the classic #peek. A 'stream peek' can be replaced with 
 ```stream explore: [ stream get ]``` The advantage of #explore: is that the block allows arbitrary activity with the stream. The stream will return back to its original position when the block completes. For example you can peek for arbitrary number of elements, not just one: 
-```actions at: (stream explore: [ stream read: 3 ])) 
+```
+actions at: (stream explore: [ stream read: 3 ])) 
      ifAbsent: [ "not an action ID, do something else with the stream" ] 
-     ifPresent: [ :action | stream ++ 3. action value: stream ]```
+     ifPresent: [ :action | stream ++ 3. action value: stream ]
+```
 
 Positionable write streams can also be explored. The motivating use case is attempting a complex write and being able to abandon it if it doesn't work out. 
-```String new writing write: 'Hello '; 
+```
+String new writing write: 'Hello '; 
                       explore: [ :stream | stream write: 'Fooled!' ]; 
                       write: 'World!'; 
                       conclusion.
@@ -164,7 +167,8 @@ The most common kind of exploration is to 'peek' ahead by one element only. This
 ## Write vs Insert
 
 At times it is useful to be able to insert elements into the existing content of a positionable write stream. All the #write:... methods have an #insert:... equivalent for that purpose. Insert at the end of the stream has the same effect as write, similarly insert: on non-positionable stream is the same as write:. 
-```String new writing write: 'Hello World!'; 
+```
+String new writing write: 'Hello World!'; 
                            += 5; insert: ', Hello';
                            -= 0; 
                            conclusion
@@ -174,7 +178,8 @@ At times it is useful to be able to insert elements into the existing content of
 
 When writing to a write stream, it is the habit of Xtreams to always send data through immediately. There are cases where sending data immediately (eg: through a socket or protocol) could cause a protocol to become "chatty". When you know where it is you can safely flush to keep a protocol happy, it is useful to buffer up write data before transmitting it.
 
-```(ByteArray new writing buffering: 10) write: #[ 1 2 3 4 5 ]; 
+```
+(ByteArray new writing buffering: 10) write: #[ 1 2 3 4 5 ]; 
                                          write: #[ 6 7 8 9 0 ]; 
                                          put: 11; 
                                          flush; 
