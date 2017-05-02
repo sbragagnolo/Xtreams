@@ -11,7 +11,18 @@ Xtreams are currently maintained in Cincom Smalltalk Public Repository.
 
 Primary development is done in VisualWorks but there are several ports in varying state of completeness available. There is a port to Squeak/Pharo underway (thanks to Nicolas Cellier) available on squeaksource.com. The same port with some tweaks (available in the same repository) was successfully imported into Gemstone/S (courtesy of Dale Henrichs). A port to Smalltalk/X is underway as well (thanks to Jan Vrany). See also https://github.com/mkobetic/Xtreams.
 
-The project consists of several packages: | Package Xtreams- | Notes | |:---------------------|:----------| | Core | Defines the API and core classes | | Terminals | Streams for all supported terminals (Collections, Blocks, Files, Sockets, Pipes, etc) | | Transforms | Core transform streams (collection style, encodings, marshaling, etc) | | Substreams | Streams embedded in other streams, slicing and stitching streams | | Multiplexing | A substreaming protocol for sharing a paired read/write stream | | Crypto | Cryptographic transforms (hashing, encryption, etc) | | Compression | Compression streams (e.g. deflate) | | Xtras | Additional non-core transforms (e.g. streaming over external heap) | | Parsing | PEG parsing for Xtreams with a collection of parsers/generators (PEG, Smalltalk, Javascript, Wiki, etc) |
+The project consists of several packages: 
+| Package Xtreams- | Notes | 
+|:---------------------|:----------| 
+| Core | Defines the API and core classes | 
+| Terminals | Streams for all supported terminals (Collections, Blocks, Files, Sockets, Pipes, etc) | 
+| Transforms | Core transform streams (collection style, encodings, marshaling, etc) | 
+| Substreams | Streams embedded in other streams, slicing and stitching streams | 
+| Multiplexing | A substreaming protocol for sharing a paired read/write stream | 
+| Crypto | Cryptographic transforms (hashing, encryption, etc) | 
+| Compression | Compression streams (e.g. deflate) | 
+| Xtras | Additional non-core transforms (e.g. streaming over external heap) |
+| Parsing | PEG parsing for Xtreams with a collection of parsers/generators (PEG, Smalltalk, Javascript, Wiki, etc) |
 
 The packages are bundled together with associated Test packages in a bundle called Xtreams. This bundle also includes some example applications, e.g. IRC client. Other applications include Polycephaly2, a flexible SSH2 client/server, or the new SSL/TLS implementation for VisualWorks.
 
@@ -73,7 +84,8 @@ Here's a rough correspondence table of the most common API
 
 Another useful difference is that read streams can be used as arguments of write: and write:from:. This provides a simple and efficient way of copying from stream to stream. Providing this capability at the API level allows for interesting optimizations, for example copying between two collection streams will eventually boil down to a single copy operation between the underlying collections. So the classic (slow) stream copying pattern 
 
-```source := 'Hello World' readStream. 
+```
+source := 'Hello World' readStream. 
    destination := String new writeStream. 
    [ source atEnd ] whileFalse: [ destination nextPut: source next ]. 
    destination contents.
@@ -88,10 +100,10 @@ Another difference that you'll probably notice early on is that reading past the
 Another significant difference is that xtreams do not provide the #atEnd test. Depending on the type of stream, implementing such test may require an actual read attempt to be able to answer. Once you perform a read, you'll need to cache the element if the stream is not positionable. This gets even more complicated with complex stream stacks. Instead xtreams provide several alternatives each suitable for different circumstances. Message #rest reads everything that is left in the stream and automatically handles the Incomplete exception at the end. 
 ```'Hello World!' reading read: 6; rest ``` 
 If you don't want to collect all the elements in the collection, xtreams also support collection style iteration protocols 
-```'Hello World!' reading read: 6; inject: 0 into: [ :count :each | count + 1 ]
-```
+```'Hello World!' reading read: 6; inject: 0 into: [ :count :each | count + 1 ]```
 For comparison here's a common "read line by line" example in both classic and xtream style 
-```text := 'line1\line2\line3\line4' withCRs readStream. 
+```
+text := 'line1\line2\line3\line4' withCRs readStream. 
 lines := OrderedCollection new. 
 [ text atEnd ] whileFalse: [ lines add: (text upTo: Character cr) ]. 
 lines text := 'line1\line2\line3\line4' withCRs reading. 
