@@ -12,17 +12,17 @@ Xtreams are currently maintained in Cincom Smalltalk Public Repository.
 Primary development is done in VisualWorks but there are several ports in varying state of completeness available. There is a port to Squeak/Pharo underway (thanks to Nicolas Cellier) available on squeaksource.com. The same port with some tweaks (available in the same repository) was successfully imported into Gemstone/S (courtesy of Dale Henrichs). A port to Smalltalk/X is underway as well (thanks to Jan Vrany). See also https://github.com/mkobetic/Xtreams.
 
 The project consists of several packages: 
-| Package Xtreams- | Notes | 
-|:---------------------|:----------| 
-| Core | Defines the API and core classes | 
-| Terminals | Streams for all supported terminals (Collections, Blocks, Files, Sockets, Pipes, etc) | 
-| Transforms | Core transform streams (collection style, encodings, marshaling, etc) | 
-| Substreams | Streams embedded in other streams, slicing and stitching streams | 
-| Multiplexing | A substreaming protocol for sharing a paired read/write stream | 
-| Crypto | Cryptographic transforms (hashing, encryption, etc) | 
-| Compression | Compression streams (e.g. deflate) | 
-| Xtras | Additional non-core transforms (e.g. streaming over external heap) |
-| Parsing | PEG parsing for Xtreams with a collection of parsers/generators (PEG, Smalltalk, Javascript, Wiki, etc) |
+| Package Xtreams-     | Notes                                                                                    | 
+|:---------------------|:-----------------------------------------------------------------------------------------| 
+| Core                 | Defines the API and core classes                                                         | 
+| Terminals            | Streams for all supported terminals (Collections, Blocks, Files, Sockets, Pipes, etc)    | 
+| Transforms           | Core transform streams (collection style, encodings, marshaling, etc)                    | 
+| Substreams           | Streams embedded in other streams, slicing and stitching streams                         | 
+| Multiplexing         | A substreaming protocol for sharing a paired read/write stream                           | 
+| Crypto               | Cryptographic transforms (hashing, encryption, etc)                                      |  
+| Compression          | Compression streams (e.g. deflate)                                                       | 
+| Xtras                | Additional non-core transforms (e.g. streaming over external heap)                       |
+| Parsing              | PEG parsing Includes  parsers/generators (PEG, Smalltalk, Javascript, Wiki, etc)         |
 
 The packages are bundled together with associated Test packages in a bundle called Xtreams. This bundle also includes some example applications, e.g. IRC client. Other applications include Polycephaly2, a flexible SSH2 client/server, or the new SSL/TLS implementation for VisualWorks.
 
