@@ -156,7 +156,8 @@ Positionable write streams can also be explored. The motivating use case is atte
    String new writing write: 'Hello '; 
                       explore: [ :stream | stream write: 'World!' ]; 
                       -= 0; 
-                      conclusion```
+                      conclusion
+```
 
 The most common kind of exploration is to 'peek' ahead by one element only. This is a short hand for aStream explore: get, eg: ```'Hello' reading peek.```
 
@@ -166,7 +167,8 @@ At times it is useful to be able to insert elements into the existing content of
 ```String new writing write: 'Hello World!'; 
                            += 5; insert: ', Hello';
                            -= 0; 
-                           conclusion```
+                           conclusion
+```
 
 ## Buffered Writing
 
@@ -176,7 +178,8 @@ When writing to a write stream, it is the habit of Xtreams to always send data t
                                          write: #[ 6 7 8 9 0 ]; 
                                          put: 11; 
                                          flush; 
-                                         conclusion.```
+                                         conclusion.
+```
 
 
 
