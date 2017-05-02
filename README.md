@@ -99,8 +99,13 @@ slicer collect: [ :line | line rest ].```
 The xtreams example relies on some features that are yet to be discussed, but the point we're trying to make here is that there's often better way to handle the classic pattern. For example if you want only up to first 3 characters from each line, just change the 'line rest' bit into '(line limiting: 3) rest'. The slicing layer will take care of aligning the underlying stream for you automatically, whereas in the classic case the code would have to handle it explicitly. It's also worth noting that the xtreams solution will do it efficiently. Each line can be processed as a stream of its own avoiding creation of unnecessary and potentially costly garbage.
 
 Obviously, if you can't find more suitable solution, any use of atEnd can be replaced by an Incomplete handler. For example the usual looping pattern 
-```[ stream atEnd ] whileFalse: [ ... ] ``` can be converted to 
-```[ [ ... ] repeat ] on: Incomplete do: [ :ex | ]```
+```
+[ stream atEnd ] whileFalse: [ ... ]
+```
+can be converted to 
+```
+[ [ ... ] repeat ] on: Incomplete do: [ :ex | ]
+```
 
 The stream can be ended in a way that it wasn't closed, but an error was raised. Usually this is a kind of OsError and it is not the same as knowing that a stream closed. The Incomplete exception does not raise when an OsError occurs on the underlying terminal. An example of where this distinction matters would be HTTP/1.0 where the body contents are sent to you and you know that the body is completely sent when the connection closes - however, if you receive an OsError before the Incomplete then you know you did not receive the entire body. Better protocols of course give you an indication of how much content there should be, so usually you want to catch OsError at a higher level of your application.
 
