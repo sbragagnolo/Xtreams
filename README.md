@@ -88,14 +88,16 @@ Another difference that you'll probably notice early on is that reading past the
 Another significant difference is that xtreams do not provide the #atEnd test. Depending on the type of stream, implementing such test may require an actual read attempt to be able to answer. Once you perform a read, you'll need to cache the element if the stream is not positionable. This gets even more complicated with complex stream stacks. Instead xtreams provide several alternatives each suitable for different circumstances. Message #rest reads everything that is left in the stream and automatically handles the Incomplete exception at the end. 
 ```'Hello World!' reading read: 6; rest ``` 
 If you don't want to collect all the elements in the collection, xtreams also support collection style iteration protocols 
-```'Hello World!' reading read: 6; inject: 0 into: [ :count :each | count + 1 ]```
+```'Hello World!' reading read: 6; inject: 0 into: [ :count :each | count + 1 ]
+```
 For comparison here's a common "read line by line" example in both classic and xtream style 
 ```text := 'line1\line2\line3\line4' withCRs readStream. 
 lines := OrderedCollection new. 
 [ text atEnd ] whileFalse: [ lines add: (text upTo: Character cr) ]. 
 lines text := 'line1\line2\line3\line4' withCRs reading. 
 slicer := (text ending: Character cr) slicing. 
-slicer collect: [ :line | line rest ].```
+slicer collect: [ :line | line rest ].
+```
 The xtreams example relies on some features that are yet to be discussed, but the point we're trying to make here is that there's often better way to handle the classic pattern. For example if you want only up to first 3 characters from each line, just change the 'line rest' bit into '(line limiting: 3) rest'. The slicing layer will take care of aligning the underlying stream for you automatically, whereas in the classic case the code would have to handle it explicitly. It's also worth noting that the xtreams solution will do it efficiently. Each line can be processed as a stream of its own avoiding creation of unnecessary and potentially costly garbage.
 
 Obviously, if you can't find more suitable solution, any use of atEnd can be replaced by an Incomplete handler. For example the usual looping pattern 
