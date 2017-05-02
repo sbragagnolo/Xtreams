@@ -51,7 +51,20 @@ Xtreams is a generalized stream/iterator framework providing simple, unified API
 
 Note that the sequence of streams in a stack cannot be completely arbitrary. Each transform constrains the type of input it accepts and the type of output it produces. Since the adjacent streams in a stack are linked so that input of one is connected to the output of the other, they need to produce/consume same type of elements . For example, a "character encoding" read transform converting bytes to characters can only sit on top of a stream that produces bytes (0..255). These constraints are not checked when the stack is being constructed, it is up to the application code to make sure the streams in the stack are compatible with their adjacent streams.
 
-The framework is split into several packages: | Package Xtreams- | Notes | |:------------------------|:----------| | Core | Defines the API and core classes | | Terminals | Streams for all supported terminals (Collections, Blocks, Files, Sockets, Pipes, etc) | | Transforms | Core transform streams (collection style, encodings, marshaling, etc) | | Substreams | Streams embedded in other streams, slicing and stitching streams | | Multiplexing | A substreaming protocol for sharing a paired read/write stream | | Crypto | Cryptographic transforms (hashing, encryption, etc) | | Xtras | Additional non-core transforms (e.g. compression) | | Parsing | PEG parsing for Xtreams with a collection of parsers/generators (PEG, Smalltalk, Javascript, Wiki, etc) |
+The framework is split into several packages: 
+
+
+| Package Xtreams      | Notes                                                                                    | 
+|----------------------|------------------------------------------------------------------------------------------| 
+| Core                 | Defines the API and core classes                                                         | 
+| Terminals            | Streams for all supported terminals (Collections, Blocks, Files, Sockets, Pipes, etc)    | 
+| Transforms           | Core transform streams (collection style, encodings, marshaling, etc)                    | 
+| Substreams           | Streams embedded in other streams, slicing and stitching streams                         | 
+| Multiplexing         | A substreaming protocol for sharing a paired read/write stream                           | 
+| Crypto               | Cryptographic transforms (hashing, encryption, etc)                                      |  
+| Compression          | Compression streams (e.g. deflate)                                                       | 
+| Xtras                | Additional non-core transforms (e.g. streaming over external heap)                       |
+| Parsing              | PEG parsing Includes  parsers/generators (PEG, Smalltalk, Javascript, Wiki, etc)         |
 
 ## Stream Creation
 
@@ -80,7 +93,18 @@ Instead, in Xtreams, if you close a write stream on a collection it will trim th
 
 Here's a rough correspondence table of the most common API
 
-| classic | xtreams | |:--------------|:---------------| | next | get | | nextPut: | put: | | next: | read: | | next:into:startingAt: | read:into:/read:into:at: | | nextPutAll: | write: | | next:putAll:startingAt: | write:from:/write:from:at: | | upToEnd | rest | | skip: | ++ |
+
+| classic                 | xtreams                           | 
+|-------------------------|-----------------------------------| 
+| next                    | get                               | 
+| nextPut:                | put:                              | 
+| next:                   | read:                             | 
+| next:into:startingAt:   | read:into:/read:into:at:          |
+| nextPutAll:             | write:                            | 
+| next:putAll:startingAt: | write:from:/write:from:at:        |
+| upToEnd                 | rest                              |
+| skip:                   | ++                                |
+
 
 ## Stream Copying
 
