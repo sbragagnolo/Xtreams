@@ -216,7 +216,8 @@ Buffering requires memory and different algorithms may require different bufferi
 Any positionable stream can be explored. The #explore: method is an enhancement of the classic #peek. A 'stream peek' can be replaced with 
 ```
 stream explore: [ stream get ]
-``` The advantage of #explore: is that the block allows arbitrary activity with the stream. The stream will return back to its original position when the block completes. For example you can peek for arbitrary number of elements, not just one: 
+``` 
+The advantage of #explore: is that the block allows arbitrary activity with the stream. The stream will return back to its original position when the block completes. For example you can peek for arbitrary number of elements, not just one: 
 ```
 actions at: (stream explore: [ stream read: 3 ])) 
      ifAbsent: [ "not an action ID, do something else with the stream" ] 
