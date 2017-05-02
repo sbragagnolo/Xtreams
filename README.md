@@ -183,7 +183,18 @@ Random new reading positioning read: 5; -- 2; read: 2
 ```
 The positioning API imitates pointer arithmetic. Only skipping forward (++) and skipping to the end (-= 0) is available on both positionable and non-positionable streams.
 
-| message | notes | |:------------|:-----------| | position | returns current position from the beginning(1) of the stream | | position: | sets current position from the beginning(1) of the stream | | available | how many elements are left from current position to the end(1) | | length | total size of the stream (position + available) | | ++ | skips forward specified number of elements | | -- | skips backward specified number of elements | | -= | skips backward specified number of elements from the end(1) of the stream | | += | skips forward specified number of elements from the beginning(1) of the stream |
+
+| message | notes | 
+|:------------|:-----------| 
+| position | returns current position from the beginning(1) of the stream |
+| position: | sets current position from the beginning(1) of the stream | 
+| available | how many elements are left from current position to the end(1) | 
+| length | total size of the stream (position + available) | 
+| ++ | skips forward specified number of elements |
+| -- | skips backward specified number of elements |
+| -= | skips backward specified number of elements from the end(1) of the stream | 
+| += | skips forward specified number of elements from the beginning(1) of the stream |
+
 
 Some streams, such as sequenceable collection write streams and file write streams, can be positioned past the end of their current size. In this situation, #position:, #-= and #+= can all position the stream beyond the current size. The size of the stream will not change until an actual write is performed. It is possible to use -= with a negative argument to move from the end of the stream in to its future. This mode of operation is called "sparse writing".
 
